@@ -1,0 +1,43 @@
+
+
+.content {
+    height: 380px;
+    border: solid 5px red;
+}
+
+.green {
+    background-color: rgb(27, 188, 157);
+    padding: 2rem 0;
+}
+
+article.retangle {
+    height: 200px;
+    border: 4px solid pink;
+    margin-bottom: 1rem;
+}
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about {
+    height: 300px;
+}
+
+.my_wrapper-big {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.dark-blue {
+    background-color: rgb(53, 72, 92);
+    height: 200px;
+}
+
+@media screen and (min-width:992px) {
+    .my_wrapper-small {
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+    }
+}
